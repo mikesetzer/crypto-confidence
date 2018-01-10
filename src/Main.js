@@ -4,7 +4,7 @@ import {
   NavLink,
   HashRouter
 } from "react-router-dom";
-import home from "./home";
+import Home from "./Home";
 import bitcoin from "./currency/bitcoin";
 import ethereum from "./currency/ethereum";
 import ripple from "./currency/ripple";
@@ -33,7 +33,7 @@ class Main extends Component {
             <li><NavLink to="/currency/monero">Monero</NavLink></li>
           </ul>
           <div className="content">
-             <Route exact path="/" component={home}/>
+             <Route exact path="/" component={Home}/>
              <Route path="/currency/bitcoin" component={bitcoin}/>
              <Route path="/currency/ethereum" component={ethereum}/>
              <Route path="/currency/ripple" component={ripple}/>
