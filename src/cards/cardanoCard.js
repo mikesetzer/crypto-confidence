@@ -1,14 +1,15 @@
 import React, { Component } from "react";
  
-class cardanoCard extends Component {
+class CardanoCard extends Component {
   render() {
     return (
       <div class="card">
         <h2>Cardano</h2>
         <p>Price: $4.20</p>
+        <p className="sentiment">Sentiment: Good</p>
       </div>
     );
   }
 }
  
-export default cardanoCard;
+export default CardanoCard;

@@ -1,14 +1,15 @@
 import React, { Component } from "react";
  
-class moneroCard extends Component {
+class MoneroCard extends Component {
   render() {
     return (
       <div class="card">
         <h2>Monero</h2>
         <p>Price: $4.20</p>
+        <p className="sentiment">Sentiment: Good</p>
       </div>
     );
   }
 }
  
-export default moneroCard;
+export default MoneroCard;

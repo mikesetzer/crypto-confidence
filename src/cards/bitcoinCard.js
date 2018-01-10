@@ -1,14 +1,15 @@
 import React, { Component } from "react";
  
-class bitcoinCard extends Component {
+class BitcoinCard extends Component {
   render() {
     return (
-      <div class="card">
+      <div className="card">
         <h2>Bitcoin</h2>
         <p>Price: $4.20</p>
+        <p className="sentiment">Sentiment: Good</p>
       </div>
     );
   }
 }
  
-export default bitcoinCard;
+export default BitcoinCard;

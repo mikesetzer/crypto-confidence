@@ -36,3 +36,18 @@ body {
   .active {
     background-color: #0099FF;
   }
+  .cards {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .card {
+    display: block;
+    min-height: 150px;
+    min-width: 125px;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+    vertical-align: middle;
+  }

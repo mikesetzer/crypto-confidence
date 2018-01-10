@@ -1,21 +1,48 @@
 import React, { Component } from "react";
+
+import BitcoinCard from "./cards/BitcoinCard";
+import EthereumCard from "./cards/EthereumCard";
+import RippleCard from "./cards/RippleCard";
+import BitcoinCashCard from "./cards/BitcoinCashCard";
+import CardanoCard from "./cards/CardanoCard";
+import LitecoinCard from "./cards/LitecoinCard";
+import DashCard from "./cards/DashCard";
+import MoneroCard from "./cards/MoneroCard";
  
-class home extends Component {
+class Home extends Component {
   render() {
     return (
       <div>
-        <h2>HELLO</h2>
-        <p>Cras facilisis urna ornare ex volutpat, et
-        convallis erat elementum. Ut aliquam, ipsum vitae
-        gravida suscipit, metus dui bibendum est, eget rhoncus nibh
-        metus nec massa. Maecenas hendrerit laoreet augue
-        nec molestie. Cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus.</p>
- 
-        <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+        <div className="cards">
+
+          <div className="cryptocard">
+            <BitcoinCard />
+          </div>
+          <div className="cryptocard">
+            <EthereumCard />
+          </div>
+          <div className="cryptocard">
+            <RippleCard />
+          </div>
+          <div className="cryptocard">
+            <BitcoinCashCard />
+          </div>
+          <div className="cryptocard">
+            <CardanoCard />
+          </div>
+          <div className="cryptocard">
+            <LitecoinCard />
+          </div>
+          <div className="cryptocard">
+            <DashCard />
+          </div>
+          <div className="cryptocard">
+            <MoneroCard />
+          </div>
+        </div>
       </div>
     );
   }
 }
  
-export default home;
+export default Home;
