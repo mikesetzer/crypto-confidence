@@ -7,6 +7,7 @@ class LitecoinCard extends Component {
         <h2>Litecoin</h2>
         <p>Price: $4.20</p>
         <p className="sentiment">Sentiment: Good</p>
+        <div>Testing</div>
       </div>
     );
   }
